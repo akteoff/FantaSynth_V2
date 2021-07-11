@@ -1,0 +1,1738 @@
+﻿Log file open, 07/11/21 02:14:58
+LogInit: Display: Running engine for game: FantaSynthh
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.566736
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 5800X 8-Core Processor             , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.07.11-00.14.58:987][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.58:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.07.11-00.14.58:988][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.07.11-00.14.58:989][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.58:989][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.59:004][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:004][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.07.11-00.14.59:005][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.07.11-00.14.59:006][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.11-00.14.59:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.07.11-00.14.59:006][  0]LogHAL: Display: Platform has ~ 32 GB [34300780544 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.07.11-00.14.59:006][  0]LogInit: Going up to parent DeviceProfile []
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Scalability.ini]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.07.11-00.14.59:007][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.07.11-00.14.59:008][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.07.11-00.14.59:008][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.07.11-00.14.59:008][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.07.11-00.14.59:008][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Config/Windows/Engine.ini]
+[2021.07.11-00.14.59:008][  0]LogInit: Computer: DESKTOP-E1HJN3I
+[2021.07.11-00.14.59:008][  0]LogInit: User: Casei
+[2021.07.11-00.14.59:008][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.07.11-00.14.59:008][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.07.11-00.14.59:008][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.07.11-00.14.59:008][  0]LogMemory: Platform Memory Stats for Windows
+[2021.07.11-00.14.59:008][  0]LogMemory: Process Physical Memory: 116.94 MB used, 116.94 MB peak
+[2021.07.11-00.14.59:008][  0]LogMemory: Process Virtual Memory: 102.80 MB used, 102.80 MB peak
+[2021.07.11-00.14.59:008][  0]LogMemory: Physical Memory: 9423.63 MB used,  23288.14 MB free, 32711.77 MB total
+[2021.07.11-00.14.59:008][  0]LogMemory: Virtual Memory: 5191.68 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.07.11-00.14.59:015][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.07.11-00.14.59:130][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.07.11-00.14.59:132][  0]LogInit: Using OS detected language (pl-PL).
+[2021.07.11-00.14.59:132][  0]LogInit: Using OS detected locale (pl-PL).
+[2021.07.11-00.14.59:145][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2021.07.11-00.14.59:145][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2021.07.11-00.14.59:145][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2021.07.11-00.14.59:145][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2021.07.11-00.14.59:145][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2021.07.11-00.14.59:146][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2021.07.11-00.14.59:146][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2021.07.11-00.14.59:146][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2021.07.11-00.14.59:148][  0]LogInit: Setting process to per monitor DPI aware
+[2021.07.11-00.14.59:201][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.07.11-00.14.59:201][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.07.11-00.14.59:554][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.11-00.14.59:554][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.07.11-00.14.59:554][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.07.11-00.14.59:554][  0]LogD3D11RHI: D3D11 adapters:
+[2021.07.11-00.14.59:635][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.07.11-00.14.59:635][  0]LogD3D11RHI:       8088/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.07.11-00.14.59:637][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.07.11-00.14.59:637][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.07.11-00.14.59:637][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.07.11-00.14.59:644][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.07.11-00.14.59:644][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.07.11-00.14.59:644][  0]LogWindows: EnumDisplayDevices:
+[2021.07.11-00.14.59:644][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.07.11-00.14.59:644][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.07.11-00.14.59:645][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.07.11-00.14.59:645][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.07.11-00.14.59:645][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.07.11-00.14.59:645][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.07.11-00.14.59:645][  0]LogD3D11RHI:   Driver Version: 466.77 (internal:27.21.14.6677, unified:466.77)
+[2021.07.11-00.14.59:645][  0]LogD3D11RHI:      Driver Date: 6-8-2021
+[2021.07.11-00.14.59:645][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.07.11-00.14.59:707][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.07.11-00.14.59:707][  0]LogD3D11RHI: Async texture creation enabled
+[2021.07.11-00.14.59:707][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.07.11-00.14.59:737][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.07.11-00.15.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.07.11-00.15.00:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.07.11-00.15.00:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.07.11-00.15.00:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.07.11-00.15.00:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.07.11-00.15.00:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.07.11-00.15.00:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.07.11-00.15.00:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.07.11-00.15.00:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.07.11-00.15.00:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.07.11-00.15.00:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.07.11-00.15.00:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.07.11-00.15.00:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.07.11-00.15.00:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.07.11-00.15.00:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.07.11-00.15.00:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.07.11-00.15.00:124][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.07.11-00.15.00:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.07.11-00.15.00:145][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.07.11-00.15.00:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.07.11-00.15.00:176][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.07.11-00.15.00:176][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.07.11-00.15.00:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.07.11-00.15.00:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.07.11-00.15.00:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.07.11-00.15.00:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.07.11-00.15.00:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.07.11-00.15.00:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.07.11-00.15.00:230][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.07.11-00.15.00:576][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.07.11-00.15.00:735][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Intermediate/Shaders/WorkingDirectory/15336/).
+[2021.07.11-00.15.00:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Casei/AppData/Local/Temp/UnrealShaderWorkingDir/D90C0041498E695278F79FBEE21E363D/'.
+[2021.07.11-00.15.00:736][  0]LogXGEController: Cleaning working directory: C:/Users/Casei/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.07.11-00.15.00:737][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.07.11-00.15.00:737][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.07.11-00.15.00:737][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.07.11-00.15.01:407][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.07.11-00.15.01:598][  0]LogDerivedDataCache: Loaded boot cache 0.19s 76MB C:/Users/Casei/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.07.11-00.15.01:598][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Casei/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.07.11-00.15.01:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Dokumenty/GitHub/FantaSynth_V2+/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.07.11-00.15.01:598][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.07.11-00.15.01:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Dokumenty/GitHub/FantaSynth_V2+/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.11-00.15.01:598][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.07.11-00.15.01:608][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.07.11-00.15.01:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.11-00.15.01:608][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.07.11-00.15.01:609][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Casei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.07.11-00.15.01:609][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.07.11-00.15.01:609][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.07.11-00.15.01:649][  0]LogSlate: Using FreeType 2.10.0
+[2021.07.11-00.15.01:651][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.07.11-00.15.01:737][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2021.07.11-00.15.01:970][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.11-00.15.02:151][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.07.11-00.15.02:151][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.07.11-00.15.02:151][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.07.11-00.15.02:151][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.07.11-00.15.02:152][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.07.11-00.15.02:191][  0]LogNetVersion: FantaSynthh 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2728419135)
+[2021.07.11-00.15.03:275][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001C5736D9340), frame # 0
+[2021.07.11-00.15.03:276][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C573559E40), frame # 0
+[2021.07.11-00.15.03:278][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C573595E00), frame # 0
+[2021.07.11-00.15.03:330][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.037768 seconds
+[2021.07.11-00.15.03:334][  0]LogUObjectArray: 15918 objects as part of root set at end of initial load.
+[2021.07.11-00.15.03:334][  0]LogUObjectAllocator: 3965776 out of 0 bytes used by permanent object pool.
+[2021.07.11-00.15.03:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.07.11-00.15.03:993][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.07.11-00.15.04:001][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.07.11-00.15.04:135][  0]SourceControl: Source control is disabled
+[2021.07.11-00.15.04:749][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.11-00.15.04:750][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.11-00.15.05:174][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.07.11-00.15.05:206][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.11-00.15.05:206][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.11-00.15.05:272][  0]LogOcInput: OculusInput pre-init called
+[2021.07.11-00.15.05:288][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.07.11-00.15.05:288][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.07.11-00.15.05:384][  0]LogEngine: Initializing Engine...
+[2021.07.11-00.15.05:386][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.11-00.15.05:386][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.07.11-00.15.05:388][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.07.11-00.15.05:538][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.07.11-00.15.05:555][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.07.11-00.15.05:555][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C57BBEBC00), frame # 0
+[2021.07.11-00.15.05:555][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C57BC26700), frame # 0
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.15.05:565][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.15.05:565][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.15.05:566][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.15.05:566][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.15.05:591][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.15.05:591][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.15.05:591][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.15.05:591][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.15.05:591][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.15.05:591][  0]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.15.05:620][  0]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.15.05:621][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.15.05:624][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.15.05:624][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.15.05:625][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.15.05:626][  0]LogInit: FAudioDevice initialized.
+[2021.07.11-00.15.05:626][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.07.11-00.15.05:687][  0]LogDerivedDataCache: Saved boot cache 0.06s 76MB C:/Users/Casei/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.07.11-00.15.05:687][  0]LogInit: Texture streaming: Enabled
+[2021.07.11-00.15.05:712][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.07.11-00.15.05:712][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.07.11-00.15.05:717][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.07.11-00.15.05:779][  0]LogInit: Transaction tracking system initialized
+[2021.07.11-00.15.05:822][  0]BlueprintLog: New page: Editor Load
+[2021.07.11-00.15.05:965][  0]LocalizationService: Localization service is disabled
+[2021.07.11-00.15.06:109][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.11-00.15.06:110][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.11-00.15.06:191][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.07.11-00.15.06:191][  0]LogCook: Display: Mobile HDR setting 1
+[2021.07.11-00.15.06:500][  0]LogFileCache: Scanning file cache for directory 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/' took 0.06s
+[2021.07.11-00.15.08:546][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.264
+[2021.07.11-00.15.08:547][  0]Cmd: MAP LOAD FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Levels/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.11-00.15.08:601][  0]LightingResults: New page: Lighting Build
+[2021.07.11-00.15.08:604][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.15.08:605][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.08:605][  0]MapCheck: New page: Map Check
+[2021.07.11-00.15.08:605][  0]LightingResults: New page: Lighting Build
+[2021.07.11-00.15.08:625][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C57BBEBC00), frame # 0
+[2021.07.11-00.15.08:625][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C57BC26700), frame # 0
+[2021.07.11-00.15.08:626][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.07.11-00.15.11:438][  0]LogLinker: Warning: While loading 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new.uasset' failed to load '/Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite': Can't find file.
+[2021.07.11-00.15.11:438][  0]LogLinker: Warning: While loading 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new.uasset' failed to load '/Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite': Can't find file.
+[2021.07.11-00.15.11:438][  0]LogLinker: Warning: While loading 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new.uasset' failed to load '/Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite': Can't find file.
+[2021.07.11-00.15.11:438][  0]LogLinker: Warning: While loading 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new.uasset' failed to load '/Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite': Can't find file.
+[2021.07.11-00.15.13:309][  0]LogLinker: Warning: While loading 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new.uasset' failed to load '/Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite': Can't find file.
+[2021.07.11-00.15.13:309][  0]LoadErrors: Failed to load /Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite.boom_new8_Sprite Referenced by boom_new
+[2021.07.11-00.15.13:309][  0]LogLinker: Warning: While loading 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new.uasset' failed to load '/Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite': Can't find file.
+[2021.07.11-00.15.13:309][  0]LoadErrors: Failed to load /Game/Sprites/Enemies/Fast_Goblin_Broken/HGB_Boom/boom_new8_Sprite.boom_new8_Sprite Referenced by boom_new
+[2021.07.11-00.15.14:632][  0]LogAIModule: Creating AISystem for world TestLevel
+[2021.07.11-00.15.14:632][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C50FEBCC00), frame # 0
+[2021.07.11-00.15.14:632][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50E88BB00), frame # 0
+[2021.07.11-00.15.14:658][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.11-00.15.14:673][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.07.11-00.15.14:674][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.11-00.15.14:674][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,23ms to complete.
+[2021.07.11-00.15.14:674][  0]LogFileHelpers: Loading map 'TestLevel' took 6.127
+[2021.07.11-00.15.14:688][  0]LogUnrealEdMisc: Total Editor Startup Time, took 21.405
+[2021.07.11-00.15.14:826][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.14:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.14:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.14:841][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.14:856][  0]LogCollectionManager: Loaded 0 collections in 0.003240 seconds
+[2021.07.11-00.15.14:878][  0]LogFileCache: Scanning file cache for directory 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Collections/' took 0.00s
+[2021.07.11-00.15.14:878][  0]LogFileCache: Scanning file cache for directory 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Developers/Casei/Collections/' took 0.00s
+[2021.07.11-00.15.14:878][  0]LogFileCache: Scanning file cache for directory 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Collections/' took 0.00s
+[2021.07.11-00.15.14:878][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3427 classes and 821 folders.
+[2021.07.11-00.15.14:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.07.11-00.15.15:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.07.11-00.15.15:177][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.07.11-00.15.15:290][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.07.11-00.15.15:290][  0]LogLoad: (Engine Initialization) Total time: 22.01 seconds
+[2021.07.11-00.15.15:290][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.07.11-00.15.15:328][  0]LogAssetRegistry: Asset discovery search completed in 13.5918 seconds
+[2021.07.11-00.15.15:330][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.07.11-00.15.15:334][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.07.11-00.15.15:365][  0]LogSlate: Took 0.000675 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.11-00.15.15:367][  0]LogSlate: Took 0.000608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.07.11-00.15.15:370][  0]LogSlate: Took 0.000388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.07.11-00.15.15:435][  0]LogSlate: Took 0.000713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.11-00.15.15:471][  0]LogRenderer: Reallocating scene render targets to support 1036x592 Format 10 NumSamples 1 (Frame:1).
+[2021.07.11-00.15.15:471][  0]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.07.11-00.15.19:056][ 17]LogSlate: Window 'Message Log' being destroyed
+[2021.07.11-00.15.19:059][ 17]LogSlate: Window 'Message Log' being destroyed
+[2021.07.11-00.15.20:214][143]LogRenderer: Reallocating scene render targets to support 1816x872 Format 10 NumSamples 1 (Frame:118).
+[2021.07.11-00.15.21:284][268]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.15.21:300][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.15.21:302][268]PIE: New page: PIE session: TestLevel (11 lip 2021, 04:15:21)
+[2021.07.11-00.15.21:303][268]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.07.11-00.15.21:304][268]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.07.11-00.15.21:304][268]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.07.11-00.15.21:308][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003970s)
+[2021.07.11-00.15.21:309][268]LogAIModule: Creating AISystem for world TestLevel
+[2021.07.11-00.15.21:309][268]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C52E689E00), frame # 268
+[2021.07.11-00.15.21:309][268]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FC68E00), frame # 268
+[2021.07.11-00.15.21:309][268]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2021.07.11-00.15.21:309][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.005015s)
+[2021.07.11-00.15.21:319][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.15.21:320][268]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.15.21:320][268]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.15.21:320][268]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.15.21:326][268]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.15.21:326][268]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.15.21:326][268]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.15.21:326][268]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.15.21:326][268]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.15.21:326][268]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.15.21:340][268]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.15.21:340][268]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.15.21:340][268]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.15.21:340][268]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.15.21:341][268]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.15.21:350][268]LogInit: FAudioDevice initialized.
+[2021.07.11-00.15.21:373][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.21:373][268]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.15.21:376][268]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.07.11-02.15.21
+[2021.07.11-00.15.21:378][268]LogWorld: Bringing up level for play took: 0.003698
+[2021.07.11-00.15.21:378][268]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.07.11-00.15.21:382][268]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.07.11-00.15.21:382][268]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.15.21:382][268]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.15.21:382][268]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.15.21:385][268]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.15.21:386][268]PIE: Server logged in
+[2021.07.11-00.15.21:387][268]PIE: Play in editor total start time 0,09 seconds.
+[2021.07.11-00.15.25:258][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.25:258][712]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.07.11-00.15.25:258][712]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.15.25:261][712]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.15.25:262][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.25:268][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.15.25:270][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.25:290][712]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FC68E00), frame # 712
+[2021.07.11-00.15.25:290][712]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C52E689E00), frame # 712
+[2021.07.11-00.15.25:291][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.07.11-00.15.25:336][714]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.07.11-00.15.29:292][122]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Level_One.Level_One
+[2021.07.11-00.15.29:302][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.07.11-00.15.29:303][122]Cmd: MAP LOAD FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Levels/Level_One.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.11-00.15.29:303][122]LightingResults: New page: Lighting Build
+[2021.07.11-00.15.29:303][122]LoadErrors: New page: Loading map: Level_One.umap
+[2021.07.11-00.15.29:304][122]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.15.29:304][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.29:304][122]MapCheck: New page: Map Check
+[2021.07.11-00.15.29:304][122]LightingResults: New page: Lighting Build
+[2021.07.11-00.15.29:313][122]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C50FEBCC00), frame # 1122
+[2021.07.11-00.15.29:313][122]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50E88BB00), frame # 1122
+[2021.07.11-00.15.29:314][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.07.11-00.15.29:397][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.11-00.15.29:397][122]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.15.29:397][122]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C53084F600), frame # 1122
+[2021.07.11-00.15.29:397][122]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FF86980), frame # 1122
+[2021.07.11-00.15.29:410][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.07.11-00.15.29:433][122]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.11-00.15.29:433][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,06ms to complete.
+[2021.07.11-00.15.29:433][122]LogFileHelpers: Loading map 'Level_One' took 0.130
+[2021.07.11-00.15.30:529][219]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
+[2021.07.11-00.15.30:539][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.07.11-00.15.30:539][219]Cmd: MAP LOAD FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.11-00.15.30:539][219]LightingResults: New page: Lighting Build
+[2021.07.11-00.15.30:540][219]LoadErrors: New page: Loading map: MainMenu.umap
+[2021.07.11-00.15.30:541][219]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.15.30:541][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.30:541][219]MapCheck: New page: Map Check
+[2021.07.11-00.15.30:541][219]LightingResults: New page: Lighting Build
+[2021.07.11-00.15.30:551][219]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FF86980), frame # 1219
+[2021.07.11-00.15.30:551][219]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C53084F600), frame # 1219
+[2021.07.11-00.15.30:552][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.07.11-00.15.30:596][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.11-00.15.30:596][219]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.15.30:596][219]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C507605000), frame # 1219
+[2021.07.11-00.15.30:596][219]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FCBC2C0), frame # 1219
+[2021.07.11-00.15.30:605][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.07.11-00.15.30:628][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.11-00.15.30:628][219]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,048ms to complete.
+[2021.07.11-00.15.30:628][219]LogFileHelpers: Loading map 'MainMenu' took 0.089
+[2021.07.11-00.15.31:417][311]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.15.31:431][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.15.31:431][311]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:15:31)
+[2021.07.11-00.15.31:431][311]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.15.31:432][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000749s)
+[2021.07.11-00.15.31:433][311]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.15.31:433][311]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C50E6F7400), frame # 1311
+[2021.07.11-00.15.31:433][311]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FF61BC0), frame # 1311
+[2021.07.11-00.15.31:433][311]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2021.07.11-00.15.31:433][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001455s)
+[2021.07.11-00.15.31:442][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.07.11-00.15.31:443][311]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.15.31:443][311]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.15.31:444][311]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.15.31:444][311]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.15.31:444][311]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.15.31:444][311]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.15.31:444][311]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.15.31:444][311]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.15.31:444][311]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.15.31:444][311]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.15.31:449][311]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.15.31:449][311]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.15.31:449][311]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.15.31:449][311]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.15.31:449][311]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.15.31:450][311]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.15.31:462][311]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.15.31:462][311]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.15.31:462][311]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.15.31:462][311]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.15.31:462][311]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.15.31:470][311]LogInit: FAudioDevice initialized.
+[2021.07.11-00.15.31:489][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.31:490][311]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.15.31:490][311]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.15.31
+[2021.07.11-00.15.31:490][311]LogWorld: Bringing up level for play took: 0.000229
+[2021.07.11-00.15.31:490][311]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.07.11-00.15.31:492][311]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.15.31:492][311]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.15.31:492][311]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.15.31:493][311]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.15.31:494][311]PIE: Server logged in
+[2021.07.11-00.15.31:495][311]PIE: Play in editor total start time 0,065 seconds.
+[2021.07.11-00.15.32:469][416]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.15.32:469][416]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.15.32:469][416]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.15.32:470][416]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.15.32:470][416]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.15.32:470][416]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.15.32:470][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.32:504][416]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FF61BC0), frame # 1416
+[2021.07.11-00.15.32:504][416]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C50E6F7400), frame # 1416
+[2021.07.11-00.15.32:505][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.07.11-00.15.32:521][416]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.15.32:521][416]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C53068C600), frame # 1416
+[2021.07.11-00.15.32:521][416]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C5063716C0), frame # 1416
+[2021.07.11-00.15.32:521][416]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.15.32:542][416]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.15.32
+[2021.07.11-00.15.32:543][416]LogWorld: Bringing up level for play took: 0.021824
+[2021.07.11-00.15.32:543][416]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.15.32:543][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.15.32:543][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.15.32:543][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.15.32:546][416]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.15.32:547][416]LogLoad: Took 0.076764 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.15.52:188][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.15.52:189][768]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.15.52:189][768]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.15.52:192][768]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.15.52:194][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.52:202][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.15.52:203][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.15.52:226][768]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C5063716C0), frame # 3768
+[2021.07.11-00.15.52:226][768]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C53068C600), frame # 3768
+[2021.07.11-00.15.52:227][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.07.11-00.15.52:263][770]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.07.11-00.16.18:333][519]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.11-00.16.32:054][144]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.11-00.16.41:506][264]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.16.41:520][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.16.41:520][264]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:16:41)
+[2021.07.11-00.16.41:556][264]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.16.41:557][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000873s)
+[2021.07.11-00.16.41:557][264]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.16.41:557][264]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C510BD9400), frame # 9264
+[2021.07.11-00.16.41:557][264]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C5101A2AC0), frame # 9264
+[2021.07.11-00.16.41:557][264]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2021.07.11-00.16.41:557][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001645s)
+[2021.07.11-00.16.41:567][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.07.11-00.16.41:567][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.16.41:567][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.16.41:567][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.16.41:567][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.16.41:567][264]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.16.41:568][264]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.16.41:568][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.16.41:568][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.16.41:568][264]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.16.41:568][264]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.16.41:573][264]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.16.41:573][264]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.16.41:573][264]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.16.41:573][264]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.16.41:573][264]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.16.41:573][264]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.16.41:585][264]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.16.41:585][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.16.41:585][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.16.41:585][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.16.41:586][264]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.16.41:593][264]LogInit: FAudioDevice initialized.
+[2021.07.11-00.16.41:614][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.16.41:614][264]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.16.41:615][264]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.16.41
+[2021.07.11-00.16.41:615][264]LogWorld: Bringing up level for play took: 0.000259
+[2021.07.11-00.16.41:615][264]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.07.11-00.16.41:616][264]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.16.41:616][264]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.16.41:616][264]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.16.41:618][264]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.16.41:619][264]PIE: Server logged in
+[2021.07.11-00.16.41:619][264]PIE: Play in editor total start time 0,101 seconds.
+[2021.07.11-00.16.42:437][351]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.16.42:437][351]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.16.42:437][351]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.16.42:437][351]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.16.42:437][351]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.16.42:438][351]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.16.42:438][351]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.16.42:474][351]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C5101A2AC0), frame # 9351
+[2021.07.11-00.16.42:474][351]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C510BD9400), frame # 9351
+[2021.07.11-00.16.42:475][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.07.11-00.16.42:490][351]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.16.42:490][351]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C510A7CC00), frame # 9351
+[2021.07.11-00.16.42:490][351]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C5101A0CC0), frame # 9351
+[2021.07.11-00.16.42:490][351]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.16.42:512][351]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.16.42
+[2021.07.11-00.16.42:513][351]LogWorld: Bringing up level for play took: 0.022985
+[2021.07.11-00.16.42:514][351]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.16.42:514][351]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.16.42:514][351]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.16.42:514][351]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.16.42:517][351]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.16.42:517][351]LogLoad: Took 0.080077 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.16.57:724][175]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2021.07.11-00.16.57:726][175]LogBlueprintUserMessages: [Protag_BP_C_0] Interaction
+[2021.07.11-00.17.00:301][484]LogBlueprintUserMessages: [DialogComponent] Hello
+[2021.07.11-00.17.20:565][901]LogRenderer: Reallocating scene render targets to support 2560x1388 Format 10 NumSamples 1 (Frame:4551).
+[2021.07.11-00.18.25:879][736]LogCharacterMovement: drag_2 is stuck and failed to move! Velocity: X=-17.05 Y=0.64 Z=0.00 Location: X=5558.12 Y=519.00 Z=80.08 Normal: X=1.00 Y=-0.00 Z=-0.00 PenetrationDepth:18.881 Actor:LevelSegment9 Component:PaperTileMap BoneName:None (0 other events since notify)
+[2021.07.11-00.18.58:428][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.18.58:428][637]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.18.58:429][637]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.18.58:434][637]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.18.58:435][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.18.58:439][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.18.58:440][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.18.58:461][637]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C5101A0CC0), frame # 25637
+[2021.07.11-00.18.58:461][637]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C510A7CC00), frame # 25637
+[2021.07.11-00.18.58:463][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.07.11-00.18.58:506][639]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.07.11-00.20.10:505][851]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Imports/Sounds/music/Maarten_Schellekens_-_Just_Wondering_Cue.Maarten_Schellekens_-_Just_Wondering_Cue
+[2021.07.11-00.20.10:608][851]LogSlate: Took 0.000743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.07.11-00.20.24:254][419]LogSlate: Window 'Maarten_Schellekens_-_Just_Wondering_Cue' being destroyed
+[2021.07.11-00.20.24:259][419]LogSlate: Window 'Maarten_Schellekens_-_Just_Wondering_Cue' being destroyed
+[2021.07.11-00.20.29:513][ 45]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Imports/Sounds/HeadSmash.HeadSmash
+[2021.07.11-00.20.41:183][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Sounds/IntefaceHover" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/IntefaceHover.uasset" SILENT=true
+[2021.07.11-00.20.41:192][360]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/IntefaceHover0CE394B049C72F1DD028D481D5EEC432.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/IntefaceHover.uasset'
+[2021.07.11-00.20.41:410][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Sounds/intarface_hover" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/intarface_hover.uasset" SILENT=true
+[2021.07.11-00.20.41:550][360]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/intarface_hover138FD56D41444CF70F3BF0B01DFB4D0C.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/intarface_hover.uasset'
+[2021.07.11-00.20.41:843][360]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.11-00.20.41:843][360]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/IntefaceHover.IntefaceHover
+[2021.07.11-00.20.41:843][360]LogContentValidation: Display: Validating ObjectRedirector /Game/Imports/Sounds/intarface_hover.intarface_hover
+[2021.07.11-00.20.54:661][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Sounds/HeadExplode" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/HeadExplode.uasset" SILENT=true
+[2021.07.11-00.20.54:690][826]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/HeadExplode61EE5685454C3980D91BED9F2F4F8C32.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/HeadExplode.uasset'
+[2021.07.11-00.20.54:980][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Sounds/mixkit-fuel-explosion-1705" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/mixkit-fuel-explosion-1705.uasset" SILENT=true
+[2021.07.11-00.20.55:005][826]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/mixkit-fuel-explosion-1705FF6236DA49CAABED148C2681F33BBACF.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/mixkit-fuel-explosion-1705.uasset'
+[2021.07.11-00.20.55:305][826]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.11-00.20.55:305][826]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/HeadExplode.HeadExplode
+[2021.07.11-00.20.55:305][826]LogContentValidation: Display: Validating ObjectRedirector /Game/Imports/Sounds/mixkit-fuel-explosion-1705.mixkit-fuel-explosion-1705
+[2021.07.11-00.20.55:887][894]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Imports/Sounds/mixkit-arcade-game-explosion-1699.mixkit-arcade-game-explosion-1699
+[2021.07.11-00.20.59:509][262]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.20.59:524][262]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.11-00.20.59:581][262]LogPlayLevel: [PlayLevel] Compiling Protag_BP before play...
+[2021.07.11-00.20.59:624][262]LogPlayLevel: [PlayLevel] Compiling HGB_Enemy before play...
+[2021.07.11-00.20.59:640][262]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2021.07.11-00.20.59:656][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.07.11-00.20.59:657][262]LogPlayLevel: PlayLevel: Blueprint regeneration took 133 ms (3 blueprints)
+[2021.07.11-00.20.59:657][262]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:20:59)
+[2021.07.11-00.20.59:657][262]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.20.59:658][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000734s)
+[2021.07.11-00.20.59:658][262]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.20.59:659][262]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C52E7A1400), frame # 34262
+[2021.07.11-00.20.59:659][262]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FD3E700), frame # 34262
+[2021.07.11-00.20.59:659][262]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2021.07.11-00.20.59:659][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001466s)
+[2021.07.11-00.20.59:667][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.20.59:667][262]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.20.59:667][262]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.20.59:667][262]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.20.59:673][262]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.20.59:673][262]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.20.59:673][262]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.20.59:673][262]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.20.59:673][262]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.20.59:673][262]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.20.59:686][262]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.20.59:686][262]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.20.59:686][262]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.20.59:686][262]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.20.59:686][262]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.20.59:693][262]LogInit: FAudioDevice initialized.
+[2021.07.11-00.20.59:714][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.20.59:714][262]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.20.59:715][262]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.20.59
+[2021.07.11-00.20.59:715][262]LogWorld: Bringing up level for play took: 0.000223
+[2021.07.11-00.20.59:715][262]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.07.11-00.20.59:716][262]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.20.59:716][262]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.20.59:716][262]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.20.59:718][262]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.20.59:719][262]PIE: Server logged in
+[2021.07.11-00.20.59:721][262]PIE: Play in editor total start time 0,199 seconds.
+[2021.07.11-00.21.00:565][349]LogEditorViewport: Clicking Background
+[2021.07.11-00.21.02:771][563]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.02:771][563]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.02:771][563]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.21.02:771][563]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.21.02:771][563]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.02:772][563]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.02:772][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.02:814][563]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FD3E700), frame # 34563
+[2021.07.11-00.21.02:814][563]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C52E7A1400), frame # 34563
+[2021.07.11-00.21.02:814][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.07.11-00.21.02:842][563]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.21.02:842][563]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C515BBBC00), frame # 34563
+[2021.07.11-00.21.02:843][563]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C505CDDD00), frame # 34563
+[2021.07.11-00.21.02:843][563]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.02:865][563]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.21.02
+[2021.07.11-00.21.02:866][563]LogWorld: Bringing up level for play took: 0.023035
+[2021.07.11-00.21.02:866][563]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.21.02:866][563]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.02:866][563]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.02:866][563]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.02:870][563]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.02:870][563]LogLoad: Took 0.098377 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.21.06:928][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.06:928][ 44]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.21.06:928][ 44]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.21.06:931][ 44]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.06:933][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.06:941][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.21.06:943][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.06:963][ 44]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C505CDDD00), frame # 35044
+[2021.07.11-00.21.06:963][ 44]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C515BBBC00), frame # 35044
+[2021.07.11-00.21.06:964][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.07.11-00.21.07:008][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.07.11-00.21.20:469][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.07.11-00.21.20:731][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Protag/Protag_BP" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/Protag/Protag_BP.uasset" SILENT=true
+[2021.07.11-00.21.20:923][620]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Protag_BP03AECF7B4AF21E97F8836A8D1947BB09.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/Protag/Protag_BP.uasset'
+[2021.07.11-00.21.21:035][620]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/HGB_Enemy2ADBF7C04907A00B3A1477BC4474DEE9.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/Enemies/Head_Goblin_Broken/HGB_Enemy.uasset'
+[2021.07.11-00.21.21:039][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu/MainMenu" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/MainMenu/MainMenu.uasset" SILENT=true
+[2021.07.11-00.21.21:122][620]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/MainMenuDF90837A4945E7A2243C84B8D38F2252.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/MainMenu/MainMenu.uasset'
+[2021.07.11-00.21.21:170][620]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/mixkit-arcade-game-explosion-169C672957A4B54D50EB1291A95B596FC4A.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/mixkit-arcade-game-explosion-1699.uasset'
+[2021.07.11-00.21.21:183][620]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.11-00.21.21:183][620]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Protag/Protag_BP.Protag_BP
+[2021.07.11-00.21.21:183][620]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemies/Head_Goblin_Broken/HGB_Enemy.HGB_Enemy
+[2021.07.11-00.21.21:183][620]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/MainMenu/MainMenu.MainMenu
+[2021.07.11-00.21.21:183][620]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/mixkit-arcade-game-explosion-1699.mixkit-arcade-game-explosion-1699
+[2021.07.11-00.21.24:163][971]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.21.24:177][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.21.24:177][971]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:21:24)
+[2021.07.11-00.21.24:226][971]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.24:227][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000879s)
+[2021.07.11-00.21.24:227][971]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.21.24:227][971]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C510EFD000), frame # 36971
+[2021.07.11-00.21.24:227][971]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C505CDC540), frame # 36971
+[2021.07.11-00.21.24:227][971]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2021.07.11-00.21.24:227][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001643s)
+[2021.07.11-00.21.24:235][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.21.24:236][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.21.24:236][971]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.21.24:236][971]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.21.24:242][971]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.21.24:242][971]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.21.24:242][971]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.21.24:242][971]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.21.24:242][971]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.21.24:242][971]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.21.24:255][971]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.21.24:255][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.21.24:255][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.21.24:255][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.21.24:255][971]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.21.24:263][971]LogInit: FAudioDevice initialized.
+[2021.07.11-00.21.24:281][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.24:281][971]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.24:282][971]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.21.24
+[2021.07.11-00.21.24:282][971]LogWorld: Bringing up level for play took: 0.000234
+[2021.07.11-00.21.24:282][971]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.07.11-00.21.24:284][971]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.24:284][971]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.24:284][971]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.24:286][971]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.24:287][971]PIE: Server logged in
+[2021.07.11-00.21.24:288][971]PIE: Play in editor total start time 0,113 seconds.
+[2021.07.11-00.21.25:009][ 45]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.25:009][ 45]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.25:009][ 45]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.21.25:009][ 45]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.21.25:009][ 45]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.25:010][ 45]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.25:010][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.25:054][ 45]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C505CDC540), frame # 37045
+[2021.07.11-00.21.25:054][ 45]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C510EFD000), frame # 37045
+[2021.07.11-00.21.25:054][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.07.11-00.21.25:073][ 45]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.21.25:073][ 45]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C5081C0C00), frame # 37045
+[2021.07.11-00.21.25:073][ 45]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50E728B80), frame # 37045
+[2021.07.11-00.21.25:073][ 45]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.25:097][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.21.25
+[2021.07.11-00.21.25:098][ 45]LogWorld: Bringing up level for play took: 0.025375
+[2021.07.11-00.21.25:099][ 45]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.21.25:099][ 45]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.25:099][ 45]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.25:099][ 45]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.25:102][ 45]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.25:102][ 45]LogLoad: Took 0.092957 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.21.28:698][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.28:698][473]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.21.28:698][473]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.21.28:701][473]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.28:703][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.28:707][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.21.28:708][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.28:729][473]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50E728B80), frame # 37473
+[2021.07.11-00.21.28:729][473]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C5081C0C00), frame # 37473
+[2021.07.11-00.21.28:730][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.07.11-00.21.28:776][477]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.07.11-00.21.32:656][888]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Imports/Sounds/HeadExplode.HeadExplode
+[2021.07.11-00.21.37:829][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Sounds/HeadExplode" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/HeadExplode.uasset" SILENT=true
+[2021.07.11-00.21.37:861][488]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/HeadExplodeE19FD8FE4B9D6E1CD53867A95F760B35.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/HeadExplode.uasset'
+[2021.07.11-00.21.37:869][488]AssetCheck: New page: Asset Save: HeadExplode
+[2021.07.11-00.21.37:869][488]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/HeadExplode.HeadExplode
+[2021.07.11-00.21.39:165][640]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.21.39:179][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.21.39:179][640]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:21:39)
+[2021.07.11-00.21.39:180][640]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.39:180][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000750s)
+[2021.07.11-00.21.39:181][640]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.21.39:181][640]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C510FF7400), frame # 38640
+[2021.07.11-00.21.39:181][640]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FC49440), frame # 38640
+[2021.07.11-00.21.39:181][640]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2021.07.11-00.21.39:181][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001475s)
+[2021.07.11-00.21.39:189][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.21.39:190][640]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.21.39:190][640]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.21.39:190][640]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.21.39:196][640]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.21.39:196][640]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.21.39:196][640]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.21.39:196][640]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.21.39:196][640]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.21.39:196][640]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.21.39:208][640]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.21.39:208][640]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.21.39:208][640]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.21.39:208][640]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.21.39:208][640]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.21.39:216][640]LogInit: FAudioDevice initialized.
+[2021.07.11-00.21.39:234][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.39:235][640]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.39:235][640]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.21.39
+[2021.07.11-00.21.39:235][640]LogWorld: Bringing up level for play took: 0.000237
+[2021.07.11-00.21.39:235][640]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.07.11-00.21.39:237][640]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.39:237][640]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.39:237][640]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.39:238][640]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.39:239][640]PIE: Server logged in
+[2021.07.11-00.21.39:240][640]PIE: Play in editor total start time 0,063 seconds.
+[2021.07.11-00.21.39:666][679]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.39:666][679]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.39:666][679]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.21.39:666][679]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.21.39:666][679]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.39:666][679]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.39:667][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.39:714][679]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FC49440), frame # 38679
+[2021.07.11-00.21.39:714][679]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C510FF7400), frame # 38679
+[2021.07.11-00.21.39:714][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.07.11-00.21.39:729][679]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.21.39:729][679]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C51ED23E00), frame # 38679
+[2021.07.11-00.21.39:730][679]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C505C67740), frame # 38679
+[2021.07.11-00.21.39:730][679]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.39:752][679]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.21.39
+[2021.07.11-00.21.39:753][679]LogWorld: Bringing up level for play took: 0.023114
+[2021.07.11-00.21.39:753][679]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.21.39:754][679]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.39:754][679]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.39:754][679]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.39:757][679]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.39:757][679]LogLoad: Took 0.090799 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.21.45:548][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.45:548][369]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.21.45:548][369]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.21.45:552][369]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.45:553][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.45:559][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.21.45:560][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.45:581][369]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C505C67740), frame # 39369
+[2021.07.11-00.21.45:581][369]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C51ED23E00), frame # 39369
+[2021.07.11-00.21.45:582][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.07.11-00.21.45:619][372]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.07.11-00.21.48:814][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Sounds/HeadExplode" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/HeadExplode.uasset" SILENT=true
+[2021.07.11-00.21.48:841][744]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/HeadExplode1384554B4760EC9E164429957FE9D1F0.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/HeadExplode.uasset'
+[2021.07.11-00.21.48:849][744]AssetCheck: New page: Asset Save: HeadExplode
+[2021.07.11-00.21.48:850][744]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/HeadExplode.HeadExplode
+[2021.07.11-00.21.49:939][873]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.21.49:954][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.21.49:954][873]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:21:49)
+[2021.07.11-00.21.49:954][873]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.49:955][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000766s)
+[2021.07.11-00.21.49:956][873]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.21.49:956][873]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C510FF7E00), frame # 39873
+[2021.07.11-00.21.49:956][873]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C510F04680), frame # 39873
+[2021.07.11-00.21.49:956][873]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2021.07.11-00.21.49:956][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001575s)
+[2021.07.11-00.21.49:964][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.21.49:965][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.21.49:965][873]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.21.49:965][873]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.21.49:970][873]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.21.49:970][873]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.21.49:970][873]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.21.49:970][873]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.21.49:970][873]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.21.49:970][873]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.21.49:983][873]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.21.49:983][873]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.21.49:983][873]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.21.49:983][873]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.21.49:983][873]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.21.49:991][873]LogInit: FAudioDevice initialized.
+[2021.07.11-00.21.50:012][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.50:013][873]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.50:013][873]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.21.50
+[2021.07.11-00.21.50:013][873]LogWorld: Bringing up level for play took: 0.000229
+[2021.07.11-00.21.50:013][873]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.07.11-00.21.50:015][873]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.50:015][873]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.50:015][873]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.50:016][873]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.50:018][873]PIE: Server logged in
+[2021.07.11-00.21.50:019][873]PIE: Play in editor total start time 0,066 seconds.
+[2021.07.11-00.21.50:710][944]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.50:710][944]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.21.50:710][944]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.21.50:711][944]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.21.50:711][944]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.21.50:711][944]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.50:711][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.50:744][944]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C510F04680), frame # 39944
+[2021.07.11-00.21.50:744][944]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C510FF7E00), frame # 39944
+[2021.07.11-00.21.50:745][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.07.11-00.21.50:760][944]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.21.50:760][944]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C533C57E00), frame # 39944
+[2021.07.11-00.21.50:760][944]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FF87380), frame # 39944
+[2021.07.11-00.21.50:760][944]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.21.50:781][944]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.21.50
+[2021.07.11-00.21.50:782][944]LogWorld: Bringing up level for play took: 0.021733
+[2021.07.11-00.21.50:782][944]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.21.50:783][944]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.50:783][944]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.21.50:783][944]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.50:786][944]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.21.50:786][944]LogLoad: Took 0.075170 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.21.56:268][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.21.56:268][594]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.21.56:269][594]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.21.56:273][594]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.21.56:274][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.56:282][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.21.56:284][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.21.56:304][594]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FF87380), frame # 40594
+[2021.07.11-00.21.56:304][594]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C533C57E00), frame # 40594
+[2021.07.11-00.21.56:305][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.07.11-00.21.56:324][595]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.07.11-00.22.03:780][428]LogSlate: Window 'HeadExplode' being destroyed
+[2021.07.11-00.22.03:783][428]LogSlate: Window 'HeadExplode' being destroyed
+[2021.07.11-00.33.03:211][421]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Pobrane\466834__mikee63__enhanced-blaster.wav)
+[2021.07.11-00.33.12:407][421]LogSlate: Window 'Message' being destroyed
+[2021.07.11-00.33.12:411][421]Message dialog closed, result: No, title: Message, text: Use the selected Sound Wave 'glitch_001' in the Content Browser as a template for sound(s) being imported?
+[2021.07.11-00.33.12:415][421]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave 466834__mikee63__enhanced-blaster...
+[2021.07.11-00.33.12:416][421]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Imports/Sounds/466834__mikee63__enhanced-blaster.466834__mikee63__enhanced-blaster will be modified from 40 to 40.
+[2021.07.11-00.33.12:436][421]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317120 while cooking SoundWave /Game/Imports/Sounds/466834__mikee63__enhanced-blaster.466834__mikee63__enhanced-blaster.
+[2021.07.11-00.33.23:681][206]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Pobrane\466867__mikee63__blaster-shot-single-5.wav)
+[2021.07.11-00.33.23:684][206]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave 466867__mikee63__blaster-shot-single-5...
+[2021.07.11-00.33.23:684][206]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Imports/Sounds/466867__mikee63__blaster-shot-single-5.466867__mikee63__blaster-shot-single-5 will be modified from 40 to 40.
+[2021.07.11-00.33.23:703][206]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317120 while cooking SoundWave /Game/Imports/Sounds/466867__mikee63__blaster-shot-single-5.466867__mikee63__blaster-shot-single-5.
+[2021.07.11-00.33.42:979][448]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Protag/Protag_BP.Protag_BP
+[2021.07.11-00.33.43:126][448]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2021.07.11-00.33.48:218][966]LogSlate: Took 0.000772 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.07.11-00.34.06:803][145]BlueprintLog: New page: Compile Protag_BP
+[2021.07.11-00.34.06:896][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.07.11-00.34.07:192][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Protag/Protag_BP" FILE="D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/Protag/Protag_BP.uasset" SILENT=true
+[2021.07.11-00.34.07:343][162]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/Protag_BP02CC6414425A35EDCCEB6CB4AF247D87.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Blueprints/Protag/Protag_BP.uasset'
+[2021.07.11-00.34.07:354][162]AssetCheck: New page: Asset Save: Protag_BP
+[2021.07.11-00.34.07:354][162]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Protag/Protag_BP.Protag_BP
+[2021.07.11-00.34.08:185][259]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.34.08:199][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.34.08:199][259]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:34:08)
+[2021.07.11-00.34.08:200][259]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.34.08:200][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000793s)
+[2021.07.11-00.34.08:201][259]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.34.08:201][259]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C5A018BE00), frame # 50259
+[2021.07.11-00.34.08:201][259]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C51284BB00), frame # 50259
+[2021.07.11-00.34.08:201][259]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2021.07.11-00.34.08:201][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001527s)
+[2021.07.11-00.34.08:217][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.34.08:218][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.34.08:218][259]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.34.08:218][259]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.34.08:224][259]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.34.08:224][259]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.34.08:224][259]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.34.08:224][259]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.34.08:224][259]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.34.08:224][259]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.34.08:238][259]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.34.08:238][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.34.08:238][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.34.08:238][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.34.08:238][259]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.34.08:246][259]LogInit: FAudioDevice initialized.
+[2021.07.11-00.34.08:259][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.34.08:259][259]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.34.08:260][259]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.34.08
+[2021.07.11-00.34.08:260][259]LogWorld: Bringing up level for play took: 0.000253
+[2021.07.11-00.34.08:260][259]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.07.11-00.34.08:261][259]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.08:261][259]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.08:261][259]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.08:263][259]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.08:266][259]PIE: Server logged in
+[2021.07.11-00.34.08:269][259]PIE: Play in editor total start time 0,072 seconds.
+[2021.07.11-00.34.08:952][328]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.34.08:952][328]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.34.08:952][328]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.34.08:952][328]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.34.08:952][328]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.34.08:952][328]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.34.08:952][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.08:989][328]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C51284BB00), frame # 50328
+[2021.07.11-00.34.08:989][328]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C5A018BE00), frame # 50328
+[2021.07.11-00.34.08:991][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.07.11-00.34.09:018][328]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.34.09:018][328]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C5A91EFE00), frame # 50328
+[2021.07.11-00.34.09:018][328]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C5128496C0), frame # 50328
+[2021.07.11-00.34.09:018][328]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.34.09:040][328]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.34.09
+[2021.07.11-00.34.09:041][328]LogWorld: Bringing up level for play took: 0.022901
+[2021.07.11-00.34.09:042][328]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.34.09:042][328]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.09:042][328]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.09:042][328]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.09:045][328]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.09:045][328]LogLoad: Took 0.093037 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.34.15:018][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.34.15:018][ 36]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.34.15:019][ 36]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.34.15:024][ 36]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.34.15:026][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.15:033][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.34.15:036][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.15:063][ 36]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C5128496C0), frame # 51036
+[2021.07.11-00.34.15:063][ 36]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C5A91EFE00), frame # 51036
+[2021.07.11-00.34.15:064][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.07.11-00.34.15:098][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.07.11-00.34.20:245][645]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Imports/Sounds/466867__mikee63__blaster-shot-single-5.466867__mikee63__blaster-shot-single-5
+[2021.07.11-00.34.25:687][276]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/466867__mikee63__blaster-shot-si37A6045C4BD1500983DDF996B095B660.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/466867__mikee63__blaster-shot-single-5.uasset'
+[2021.07.11-00.34.25:938][276]AssetCheck: New page: Asset Save: 466867__mikee63__blaster-shot-single-5
+[2021.07.11-00.34.25:938][276]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/466867__mikee63__blaster-shot-single-5.466867__mikee63__blaster-shot-single-5
+[2021.07.11-00.34.27:407][449]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.34.27:422][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.34.27:422][449]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:34:27)
+[2021.07.11-00.34.27:422][449]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.34.27:423][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000784s)
+[2021.07.11-00.34.27:423][449]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.34.27:424][449]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C599A87E00), frame # 52449
+[2021.07.11-00.34.27:424][449]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C505C99D00), frame # 52449
+[2021.07.11-00.34.27:424][449]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2021.07.11-00.34.27:424][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001503s)
+[2021.07.11-00.34.27:437][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.07.11-00.34.27:438][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.34.27:438][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.34.27:438][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.34.27:438][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.34.27:438][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.34.27:438][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.34.27:439][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.34.27:439][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.34.27:439][449]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.34.27:439][449]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.34.27:444][449]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.34.27:444][449]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.34.27:444][449]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.34.27:444][449]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.34.27:444][449]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.34.27:444][449]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.34.27:456][449]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.34.27:456][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.34.27:456][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.34.27:456][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.34.27:457][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.34.27:464][449]LogInit: FAudioDevice initialized.
+[2021.07.11-00.34.27:484][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.34.27:485][449]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.34.27:485][449]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.34.27
+[2021.07.11-00.34.27:485][449]LogWorld: Bringing up level for play took: 0.000223
+[2021.07.11-00.34.27:485][449]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.07.11-00.34.27:487][449]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.27:487][449]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.27:487][449]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.27:488][449]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.27:489][449]PIE: Server logged in
+[2021.07.11-00.34.27:491][449]PIE: Play in editor total start time 0,071 seconds.
+[2021.07.11-00.34.28:206][522]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.34.28:206][522]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.34.28:206][522]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.34.28:206][522]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.34.28:206][522]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.34.28:206][522]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.34.28:207][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.28:260][522]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C505C99D00), frame # 52522
+[2021.07.11-00.34.28:260][522]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C599A87E00), frame # 52522
+[2021.07.11-00.34.28:261][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.07.11-00.34.28:277][522]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.34.28:277][522]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C59F052400), frame # 52522
+[2021.07.11-00.34.28:277][522]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C598F18B80), frame # 52522
+[2021.07.11-00.34.28:277][522]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.34.28:299][522]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.34.28
+[2021.07.11-00.34.28:300][522]LogWorld: Bringing up level for play took: 0.022909
+[2021.07.11-00.34.28:301][522]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.34.28:301][522]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.28:301][522]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.28:301][522]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.28:304][522]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.28:304][522]LogLoad: Took 0.097867 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.34.40:798][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.34.40:798][ 17]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.34.40:798][ 17]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.34.40:803][ 17]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.34.40:805][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.40:811][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.34.40:813][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.40:842][ 17]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C598F18B80), frame # 54017
+[2021.07.11-00.34.40:842][ 17]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C59F052400), frame # 54017
+[2021.07.11-00.34.40:844][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.07.11-00.34.40:874][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.07.11-00.34.46:394][665]LogSavePackage: Moving 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Saved/466867__mikee63__blaster-shot-si90E43106442938641754B393F441E57A.tmp' to 'D:/Dokumenty/GitHub/FantaSynth_V2+/Project/Content/Imports/Sounds/466867__mikee63__blaster-shot-single-5.uasset'
+[2021.07.11-00.34.46:404][665]AssetCheck: New page: Asset Save: 466867__mikee63__blaster-shot-single-5
+[2021.07.11-00.34.46:404][665]LogContentValidation: Display: Validating SoundWave /Game/Imports/Sounds/466867__mikee63__blaster-shot-single-5.466867__mikee63__blaster-shot-single-5
+[2021.07.11-00.34.47:192][758]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.34.47:207][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.34.47:207][758]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:34:47)
+[2021.07.11-00.34.47:207][758]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.34.47:208][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000784s)
+[2021.07.11-00.34.47:209][758]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.34.47:209][758]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C599A86200), frame # 54758
+[2021.07.11-00.34.47:209][758]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C51EA82200), frame # 54758
+[2021.07.11-00.34.47:209][758]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2021.07.11-00.34.47:209][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001513s)
+[2021.07.11-00.34.47:223][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.34.47:224][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.34.47:224][758]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.34.47:224][758]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.34.47:230][758]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.34.47:230][758]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.34.47:230][758]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.34.47:230][758]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.34.47:230][758]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.34.47:230][758]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.34.47:242][758]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.34.47:242][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.34.47:242][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.34.47:242][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.34.47:242][758]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.34.47:250][758]LogInit: FAudioDevice initialized.
+[2021.07.11-00.34.47:269][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.34.47:269][758]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.34.47:270][758]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.34.47
+[2021.07.11-00.34.47:270][758]LogWorld: Bringing up level for play took: 0.000277
+[2021.07.11-00.34.47:270][758]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.07.11-00.34.47:271][758]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.47:271][758]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.47:271][758]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.47:273][758]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.47:274][758]PIE: Server logged in
+[2021.07.11-00.34.47:275][758]PIE: Play in editor total start time 0,07 seconds.
+[2021.07.11-00.34.47:995][832]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.34.47:995][832]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.34.47:995][832]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.34.47:995][832]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.34.47:995][832]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.34.47:995][832]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.34.47:995][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.34.48:029][832]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C51EA82200), frame # 54832
+[2021.07.11-00.34.48:029][832]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C599A86200), frame # 54832
+[2021.07.11-00.34.48:031][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.07.11-00.34.48:046][832]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.34.48:046][832]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C59EEEFE00), frame # 54832
+[2021.07.11-00.34.48:046][832]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C506373380), frame # 54832
+[2021.07.11-00.34.48:046][832]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.34.48:068][832]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.34.48
+[2021.07.11-00.34.48:069][832]LogWorld: Bringing up level for play took: 0.022824
+[2021.07.11-00.34.48:070][832]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.34.48:070][832]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.48:070][832]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.34.48:070][832]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.48:073][832]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.34.48:073][832]LogLoad: Took 0.078407 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.35.04:027][745]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2021.07.11-00.35.04:028][745]LogBlueprintUserMessages: [Protag_BP_C_0] Interaction
+[2021.07.11-00.35.05:279][895]LogBlueprintUserMessages: [DialogComponent] Hello
+[2021.07.11-00.35.38:628][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.35.38:628][888]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.35.38:628][888]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.35.38:630][888]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.35.38:631][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.35.38:636][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.35.38:639][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.35.38:665][888]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C506373380), frame # 60888
+[2021.07.11-00.35.38:665][888]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C59EEEFE00), frame # 60888
+[2021.07.11-00.35.38:667][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.07.11-00.35.38:690][889]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.07.11-00.35.39:143][941]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.07.11-00.35.39:159][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.11-00.35.39:159][941]PIE: New page: PIE session: MainMenu (11 lip 2021, 04:35:39)
+[2021.07.11-00.35.39:159][941]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.35.39:159][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000776s)
+[2021.07.11-00.35.39:160][941]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.11-00.35.39:160][941]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C59F52DC00), frame # 60941
+[2021.07.11-00.35.39:160][941]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C50FDA2C00), frame # 60941
+[2021.07.11-00.35.39:160][941]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2021.07.11-00.35.39:160][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001574s)
+[2021.07.11-00.35.39:174][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.11-00.35.39:175][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.11-00.35.39:175][941]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.11-00.35.39:176][941]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.11-00.35.39:176][941]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.11-00.35.39:181][941]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.11-00.35.39:181][941]LogAudioMixer: Display: 1: FrontRight
+[2021.07.11-00.35.39:181][941]LogAudioMixer: Display: 2: FrontCenter
+[2021.07.11-00.35.39:181][941]LogAudioMixer: Display: 3: LowFrequency
+[2021.07.11-00.35.39:181][941]LogAudioMixer: Display: 4: BackLeft
+[2021.07.11-00.35.39:181][941]LogAudioMixer: Display: 5: BackRight
+[2021.07.11-00.35.39:194][941]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2021.07.11-00.35.39:194][941]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.11-00.35.39:194][941]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.11-00.35.39:194][941]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.11-00.35.39:194][941]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.11-00.35.39:202][941]LogInit: FAudioDevice initialized.
+[2021.07.11-00.35.39:224][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.35.39:224][941]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.35.39:225][941]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.07.11-02.35.39
+[2021.07.11-00.35.39:225][941]LogWorld: Bringing up level for play took: 0.000220
+[2021.07.11-00.35.39:225][941]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.07.11-00.35.39:226][941]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.35.39:226][941]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.35.39:226][941]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.35.39:228][941]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.35.39:229][941]PIE: Server logged in
+[2021.07.11-00.35.39:230][941]PIE: Play in editor total start time 0,073 seconds.
+[2021.07.11-00.35.39:694][983]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.35.39:694][983]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.07.11-00.35.39:694][983]LogNet: Browse: /Game/Levels/Level_One
+[2021.07.11-00.35.39:694][983]LogLoad: LoadMap: /Game/Levels/Level_One
+[2021.07.11-00.35.39:694][983]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2021.07.11-00.35.39:694][983]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.35.39:694][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.35.39:730][983]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C50FDA2C00), frame # 60983
+[2021.07.11-00.35.39:730][983]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C59F52DC00), frame # 60983
+[2021.07.11-00.35.39:731][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.07.11-00.35.39:746][983]LogAIModule: Creating AISystem for world Level_One
+[2021.07.11-00.35.39:746][983]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C59E56BE00), frame # 60983
+[2021.07.11-00.35.39:746][983]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C506371D00), frame # 60983
+[2021.07.11-00.35.39:746][983]LogLoad: Game class is 'FantaSynth_GameMode_C'
+[2021.07.11-00.35.39:768][983]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.07.11-02.35.39
+[2021.07.11-00.35.39:769][983]LogWorld: Bringing up level for play took: 0.022084
+[2021.07.11-00.35.39:769][983]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.11-00.35.39:769][983]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.35.39:769][983]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.11-00.35.39:769][983]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.35.39:772][983]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.07.11-00.35.39:772][983]LogLoad: Took 0.078563 seconds to LoadMap(/Game/Levels/Level_One)
+[2021.07.11-00.36.16:117][309]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2021.07.11-00.36.16:118][309]LogBlueprintUserMessages: [Protag_BP_C_0] Interaction
+[2021.07.11-00.36.17:568][483]LogBlueprintUserMessages: [DialogComponent] Hello
+[2021.07.11-00.37.01:248][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.11-00.37.01:248][718]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_One
+[2021.07.11-00.37.01:249][718]LogSlate: Window 'FantaSynthh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.07.11-00.37.01:254][718]LogWorld: UWorld::CleanupWorld for Level_One, bSessionEnded=true, bCleanupResources=true
+[2021.07.11-00.37.01:256][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.37.01:263][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.11-00.37.01:267][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.11-00.37.01:299][718]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C506371D00), frame # 70718
+[2021.07.11-00.37.01:299][718]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C59E56BE00), frame # 70718
+[2021.07.11-00.37.01:302][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.07.11-00.37.01:325][719]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.07.11-00.37.16:685][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.07.11-00.37.17:393][531]LogSlate: Window 'Delete Assets' being destroyed
+[2021.07.11-00.37.17:633][531]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Imports/Sounds/LongBuzz.LongBuzz
+[2021.07.11-00.37.18:174][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.07.11-00.37.18:189][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.07.11-00.37.18:201][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.07.11-00.37.18:360][531]LogWindows: Windows GetLastError: Operacja ukończona pomyślnie. (0)
